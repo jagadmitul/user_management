@@ -1,0 +1,17 @@
+/* Tailwind CSS configuration and any custom styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles to match the design */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
